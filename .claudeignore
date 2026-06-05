@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+.pnpm/
+.pnpm-store/
+.yarn/
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# Logs
+*.log
+logs/
+
+# Lockfiles (can be huge and usually not needed for AI context)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# TypeScript / build metadata
+*.tsbuildinfo
+*.eslintcache
+*.stylelintcache
+
+# Large data files
+*.csv
+*.jsonl
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation images/assets (unless needed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.zip
+*.tar.gz
+*.rar
