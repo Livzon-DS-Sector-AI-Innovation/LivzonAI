@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //IM uvicorn.exe //T)",
+      "Bash(python -c ' *)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(taskkill //F //IM pnpm.exe)",
+      "Bash(pnpm add *)",
+      "Bash(pnpm install *)"
+    ]
+  }
+}
